@@ -4,9 +4,6 @@ import co.startupweek.foundroom.user.User;
 
 import javax.validation.constraints.NotNull;
 
-/**
- * Created by pazollim on 21/11/2015.
- */
 public class LoginDTO {
 
     @NotNull
@@ -14,6 +11,8 @@ public class LoginDTO {
 
     @NotNull
     private String password;
+
+    public LoginDTO() {}
 
     public LoginDTO(User user) {
         username = user.getUsername();

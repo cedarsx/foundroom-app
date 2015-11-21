@@ -16,4 +16,8 @@ logging:
     \*: INFO
 
 server:
-  port: 8082
+  port: 8084
+
+swagger:
+  basePath: /api
+  apiVersion: 1.0

@@ -33,6 +33,9 @@ dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-websocket'
 	compile 'org.springframework.boot:spring-boot-starter-security'
 	compile 'org.postgresql:postgresql:9.3-1103-jdbc41'
+	compile 'io.springfox:springfox-swagger2:2.1.2'
+	compile 'com.google.guava:guava:12.0'
+
 
 	testCompile 'org.springframework.boot:spring-boot-starter-test'
 	testCompile 'junit:junit:4.12'

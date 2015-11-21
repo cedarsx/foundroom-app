@@ -18,10 +18,26 @@ public class User implements UserDetails {
 	@NotNull
 	private String password;
 
+	private String twitter;
+
+	private int chatroom;
+
+	@NotNull
+	private int rating;
+
 	public User() {
 		SecureRandom random = new SecureRandom();
 		username = new BigInteger(130, random).toString(32);
 		password = new BigInteger(130, random).toString(32);
+		chatroom = -1;
+	}
+
+	public User(User user, String newUsername, String newPassword, String twitter) {
+		this.username = newUsername;
+		this.password = newPassword;
+		this.twitter = twitter;
+		this.rating = user.rating;
+		chatroom = -1;
 	}
 
 	@Override
@@ -59,6 +75,14 @@ public class User implements UserDetails {
 	@Override
 	public boolean isEnabled() {
 		return true;
+	}
+
+	public int getChatroom() {
+		return chatroom;
+	}
+
+	public void setChatroom(int chatroom) {
+		this.chatroom = chatroom;
 	}
 
 	@Override

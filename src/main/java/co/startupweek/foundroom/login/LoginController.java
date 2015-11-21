@@ -2,13 +2,8 @@ package co.startupweek.foundroom.login;
 
 import co.startupweek.foundroom.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-/**
- * Created by pazollim on 21/11/2015.
- */
 @RestController
 public class LoginController {
 
@@ -20,5 +15,9 @@ public class LoginController {
         return new LoginDTO(userService.generateAnonymous());
     }
 
+    @RequestMapping(method = RequestMethod.PUT, value = "/login/migrate")
+    public LoginDTO migrateUser(@RequestBody MigrateDTO migration) {
+        return new LoginDTO(userService.migrateUser(migration));
+    }
 
 }

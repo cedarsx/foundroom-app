@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="foundroom" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="co.startupweek.foundroom" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="foundroom" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="org.pazolli.foundroom" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/build/classes/test" />
@@ -66,6 +66,17 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.3-1103-jdbc41/ee886e1a73d9debe9fb430bdfa1ee8c3a9f66d71/postgresql-9.3-1103-jdbc41-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: io.springfox:springfox-swagger2:2.1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/2.1.2/536afbf541109e46ed6905f20999716f8c620572/springfox-swagger2-2.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/2.1.2/179a86f84f5bc19e44f5a95a86924eb8d678b3a1/springfox-swagger2-2.1.2-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -312,6 +323,160 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
+      <library name="Gradle: org.mapstruct:mapstruct:1.0.0.Beta4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct/1.0.0.Beta4/728d0705c62165d9b6bdb9db8794c344414d5eae/mapstruct-1.0.0.Beta4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct/1.0.0.Beta4/828255169130d719bff6a48d563b0df2308746c6/mapstruct-1.0.0.Beta4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: io.swagger:swagger-annotations:1.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.0/f7497f7887e65277c0dab1da1148cf211083f3d4/swagger-annotations-1.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.0/5e064962d951e002087f6f549a88862e71e9cd52/swagger-annotations-1.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: io.swagger:swagger-models:1.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.0/d2566bfc270073a559b342089f54086ee64ca5b1/swagger-models-1.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.0/226b3c9dd4ddb9cc9f16eaf63bea988b3f3d1f3f/swagger-models-1.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: io.springfox:springfox-spi:2.1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spi/2.1.2/83414594a5dfdcfbc54e444bd6cc624fd1eb4092/springfox-spi-2.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spi/2.1.2/79420e729d40e305dffc2b65220aa03bd5c86d20/springfox-spi-2.1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: io.springfox:springfox-schema:2.1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-schema/2.1.2/9de34f8c40674a1a234f88c2147e1c84288910f/springfox-schema-2.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-schema/2.1.2/d3f7f8c50eecf5395d5fe484825e5453e774e863/springfox-schema-2.1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: io.springfox:springfox-swagger-common:2.1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-common/2.1.2/d3824efd862e43dffa0a68ac062bb533e3d56ee4/springfox-swagger-common-2.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-common/2.1.2/fa447a328b6a6e94c7c765c6929d81c52e2fb521/springfox-swagger-common-2.1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: io.springfox:springfox-spring-web:2.1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-web/2.1.2/42db92d91bdddf0bdbbe23b234554eb656d66efe/springfox-spring-web-2.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-web/2.1.2/6907bfdd8dd5abcb95831045a7c56bc990db939/springfox-spring-web-2.1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: com.fasterxml:classmate:1.2.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.2.0/3df977abee5df39041e60c763840cd948581971/classmate-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.2.0/6661dc75bc6887a1966b54ac3aa8423eeed9fe37/classmate-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: org.slf4j:slf4j-api:1.7.12">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.12/8e20852d05222dc286bf1c71d78d0531e177c317/slf4j-api-1.7.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.12/58697792617f38bf86d8e26bc004aac505e516a9/slf4j-api-1.7.12-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: org.aspectj:aspectjrt:1.8.6">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.6/a7db7ea5f7bb18a1cbd9f24edd0e666504800be/aspectjrt-1.8.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.6/4cc5b7ac5c2c314fbb00c76bd2924c75f7c1ca5d/aspectjrt-1.8.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: org.aspectj:aspectjweaver:1.8.6">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.6/7108cf65148f29a55ebf23db2c46224ea9d086dc/aspectjweaver-1.8.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.6/a361b303ca34e33bfdb96cb4e93d516e854366bb/aspectjweaver-1.8.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/f380e7760032e7d929184f8ad8a33716b75c0657/spring-plugin-core-1.2.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/112d82259202fa909d51cf7ccefae0c5523f1373/spring-plugin-core-1.2.0.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-metadata/1.2.0.RELEASE/97223fc496b6cab31602eedbd4202aa4fff0d44f/spring-plugin-metadata-1.2.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-metadata/1.2.0.RELEASE/6551604dd9c0619bae2f5a244580fa9a0dc646bf/spring-plugin-metadata-1.2.0.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: org.springframework.hateoas:spring-hateoas:0.17.0.RELEASE">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.17.0.RELEASE/eea3d92f304afed0ef6abf4ed82565533e8ce10/spring-hateoas-0.17.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.17.0.RELEASE/7a07c733f4f146cf6632a8b624b4c704f758cd58/spring-hateoas-0.17.0.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
       <library name="Gradle: org.yaml:snakeyaml:1.14">
         <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/c2df91929ed06a25001939929bff5120e0ea3fd4/snakeyaml-1.14.jar!/" />
@@ -319,17 +484,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/4c6bcedc3efa772a5ae1c2fd01efee8e4d15edac/snakeyaml-1.14-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.4.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/d6a66c7a5f01cf500377bd669507a08cfeba882a/jackson-annotations-2.4.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/7fcf3182660e0be49c7448e13f91e655b2cba9bf/jackson-annotations-2.4.0-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -363,28 +517,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.2.3.RELEASE/45e8c9d5f789aa30a60d1504657adbbf88fe2be9/spring-boot-starter-logging-1.2.3.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.aspectj:aspectjrt:1.8.5">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/39a8ff2d1f79267907f5573c090b342b040b9682/aspectjrt-1.8.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/7500c952e086db06028c248cf0de0a0f5fe55275/aspectjrt-1.8.5-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.aspectj:aspectjweaver:1.8.5">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.5/6004670a8cbcbe794d73ad00106779561ad1b180/aspectjweaver-1.8.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.5/f7a7b1dfc6a9f208f271252ca9592c252de36238/aspectjweaver-1.8.5-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -563,6 +695,28 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
+      <library name="Gradle: io.springfox:springfox-core:2.1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-core/2.1.2/703f4e7cbbe8067b0888fef53211122e5099f4fd/springfox-core-2.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-core/2.1.2/b751427355e5745643e2479d20a3314fc51b6e5d/springfox-core-2.1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: org.objenesis:objenesis:2.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
       <library name="Gradle: org.slf4j:jul-to-slf4j:1.7.11">
         <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.11/87a1d59c837c57396bc20f433ee24ad3a59c7812/jul-to-slf4j-1.7.11.jar!/" />
@@ -693,17 +847,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
-      <library name="Gradle: com.fasterxml:classmate:1.0.0">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/434efef28c81162b17c540e634cffa3bd9b09b4c/classmate-1.0.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/da0cec0cf5fa28fba22e44700d72259e0225f2e4/classmate-1.0.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
       <library name="Gradle: ch.qos.logback:logback-core:1.1.3">
         <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/e3c02049f2dbbc764681b40094ecf0dcbc99b157/logback-core-1.1.3.jar!/" />
@@ -715,6 +858,28 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
+      <library name="Gradle: com.google.guava:guava:18.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.4.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.2/6bb52af09372d5064206d47d7887d41671f00f7d/jackson-annotations-2.4.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.2/e8faebcf358eba88c107054f1c0281b81e93a844/jackson-annotations-2.4.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
       <library name="Gradle: org.slf4j:jcl-over-slf4j:1.7.11">
         <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.11/180246b7809ffae6293eea3d34e668ee948f0dc8/jcl-over-slf4j-1.7.11.jar!/" />
@@ -722,17 +887,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.11/c2a34b14948e01fb7500af68711018868e38bcdf/jcl-over-slf4j-1.7.11-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: org.slf4j:slf4j-api:1.7.11">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.11/7eaaaf2238f324e2b02dbd4d6ced6778b99328/slf4j-api-1.7.11.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.11/cc676d8cf54f7e0135e98fed2b3c283a4a576689/slf4j-api-1.7.11-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -799,17 +953,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.6.RELEASE/860ca1ce2454e37fa27437abca550d33e8a2beb9/spring-test-4.1.6.RELEASE-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.objenesis:objenesis:2.1">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
